@@ -1,8 +1,8 @@
- ###  DATE: 
+ ###  DATE: 23.02.24
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: Mohamed Zayeem Nadeem
+###  ROLL NO :212222040102
+###  DEPARTMENT: B.E cse
 
 **AIM**:  To interface a Analog  input (angular displacement sensor POT) and scale the values up on change in the input.
 
@@ -68,6 +68,34 @@ CIRCUIT DIAGRAM
 
 
 **PROGRAM** 
+// C++ code
+//
+int pot;
+int led=7;
+void setup()
+{
+  pinMode(led,OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  pot=analogRead(A0);
+  Serial.print("Value=");
+  Serial.println(pot);
+  if(pot>900)
+  {
+  digitalWrite(led,HIGH);
+  delay(500); // Wait for 1000 millisecond(s)
+  digitalWrite(led,LOW);
+  delay(500); // Wait for 1000 millisecond(s)
+  }
+  else
+  {
+    digitalWrite(led,LOW);
+  delay(500);
+  }
+}
  
 
 
@@ -80,7 +108,13 @@ CIRCUIT DIAGRAM
 
 **
 **Simulation output:** 
-**
+**![WhatsApp Image 2024-02-26 at 9 26 40 AM](https://github.com/mohamedzayeemnadeem/EXPERIMENT-NO--02-INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-/assets/119476069/95dd1907-59d1-44e0-bbbd-de86469943b8)
+![WhatsApp Image 2024-02-26 at 9 26 39 AM](https://github.com/mohamedzayeemnadeem/EXPERIMENT-NO--02-INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-/assets/119476069/3d008db6-6297-45d6-8a8b-9acf6638ee5c)
+
+![WhatsApp Image 2024-02-26 at 9 26 39 AM(1)](https://github.com/mohamedzayeemnadeem/EXPERIMENT-NO--02-INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-/assets/119476069/888e0377-d507-4700-8a9e-35a5e1b70aa0)
+
+<img width="532" alt="Screenshot 2024-02-26 093625" src="https://github.com/mohamedzayeemnadeem/EXPERIMENT-NO--02-INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-/assets/119476069/cf6fedaa-425b-48a3-ba7e-591ff405e37f">
+
 
 
 [My image](username.github.com/repository/img/image.jpg)
