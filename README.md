@@ -109,9 +109,10 @@ void loop()
 **
 **Simulation output:** 
 **![WhatsApp Image 2024-02-26 at 9 26 40 AM](https://github.com/mohamedzayeemnadeem/EXPERIMENT-NO--02-INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-/assets/119476069/95dd1907-59d1-44e0-bbbd-de86469943b8)
+![WhatsApp Image 2024-02-26 at 10 01 09 AM](https://github.com/mohamedzayeemnadeem/EXPERIMENT-NO--02-INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-/assets/119476069/1f183a65-dd43-4919-949c-9f91dc083186)
+
 ![WhatsApp Image 2024-02-26 at 9 26 39 AM](https://github.com/mohamedzayeemnadeem/EXPERIMENT-NO--02-INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-/assets/119476069/3d008db6-6297-45d6-8a8b-9acf6638ee5c)
 
-![WhatsApp Image 2024-02-26 at 9 26 40 AM](https://github.com/mohamedzayeemnadeem/EXPERIMENT-NO--02-INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-/assets/119476069/d4083782-48ca-4f38-b8c3-75711f83db5e)
 
 
 <img width="532" alt="Screenshot 2024-02-26 093625" src="https://github.com/mohamedzayeemnadeem/EXPERIMENT-NO--02-INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-/assets/119476069/cf6fedaa-425b-48a3-ba7e-591ff405e37f">
